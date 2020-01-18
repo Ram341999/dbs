@@ -17,7 +17,7 @@
             </tr>
             <tr>
                 <td style="padding-left: 55px;"><button type="button"
-                        style="font-size: 15px; border-radius: 12px; background-color: aqua;" onclick="">LOGIN</button>
+                        style="font-size: 15px; border-radius: 12px; background-color: aqua;" onclick=>LOGIN</button>
                 </td>
             </tr>
             <td>

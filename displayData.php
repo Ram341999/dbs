@@ -8,7 +8,6 @@ table, th, td {
 </style>
 </head>
 <body>
-
 <?php
 $servername = "localhost";
 $username = "username";
@@ -24,7 +23,7 @@ if ($conn->connect_error) {
 
 $sql = "SELECT id, firstname, lastname FROM MyGuests";
 $result = $conn->query($sql);
-
+""
 if ($result->num_rows > 0) {
     echo "<table><tr><th>ID</th><th>Name</th></tr>";
     // output data of each row
