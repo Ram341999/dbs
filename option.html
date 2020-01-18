@@ -11,19 +11,25 @@
         <table align="center" style="padding-top: 10%;">
             <tr>
                 <td><button name="makeRes" type="button"
-                        style="font-size: 20px; border-radius: 12px; background-color: aqua; " onclick="">Make
+                        style="font-size: 20px; border-radius: 12px; background-color: aqua; " onclick="myFunc1()">Make
                         Reservation</button>
                 </td>
             </tr>
             <tr style="padding-top: 2%;">
                 <td><button type="button" name="myRes"
                         style="font-size: 20px; border-radius: 12px; background-color: aqua; padding-right: 20px; padding-left: 15px; text-align: center;"
-                        onclick="">My
+                        onclick="myFunc2()">My
                         Reservation</button>
                 </td>
             </tr>
         </table>
     </form>
+    <script>
+        function myFunc1() {
+            location.href = "sug.html"
+        }
+        
+    </script>
 </body>
 
 </html>
